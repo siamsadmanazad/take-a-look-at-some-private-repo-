@@ -1,5 +1,6 @@
 # Ignore everything
 *
+NW_read.md
 
 # Except these
 !.gitignore
