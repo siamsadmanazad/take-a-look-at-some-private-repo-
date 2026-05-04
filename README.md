@@ -52,6 +52,60 @@ Built around two core user journeys: customers who need reliable professionals f
 
 Pre-launch, ~82% production-ready — all 20+ pages and core flows are live and functional. Remaining items are configuration and content tasks, not architectural gaps.
 
+---
+
+### NIIRMAAN — Web Admin Panel
+
+**Live Demo:** [niirmaan-admin-panal.vercel.app](https://niirmaan-admin-panal.vercel.app)
+
+The operations control center for the entire Niirmaan marketplace. Operators use it to verify users, moderate content, resolve disputes, monitor system health, and extract business intelligence — all from a single interface. The demo runs against a live staging dataset of 1,000+ seeded users.
+
+| Role | Email | Password |
+|------|-------|----------|
+| Demo Viewer (read-only) | viewer@niirmaan.com | Niirmaan@2026 |
+
+**Highlights:**
+- Real-time KPI dashboard with live-updating charts (active users, pending bookings, daily revenue, open disputes)
+- Unified user management for all three roles — Customers, Professionals, and Vendors — with search, filter, status management, and KYC review
+- Vendor verification queue — structured approve/reject workflow with document review and internal notes
+- Review moderation queue with approve/remove/escalate actions and full audit trail
+- Booking lifecycle management with calendar interface and Kanban-based dispute resolution
+- Nine purpose-built analytics dashboards: Overview, User Analytics, Revenue, Geographic (demand heatmaps), Customer Intelligence, Financial Intelligence, Cohort Analysis, Real-time, and Executive
+- System monitoring: service health checks, metrics (latency, error rates, throughput), alert management, and a structured log viewer
+- RBAC administration, feature flags, team management, audit logs, and a custom report builder
+
+**Stack:** React 18 + TypeScript · Material UI v5 · React Query + Zustand · Vite · Supabase Edge Functions + Realtime · Supabase Auth (JWT / RBAC)
+
+**GitHub (private):** `github.com/siamsadmanazad/Niirmaan_admin_panal`
+
+---
+
+### NIIRMAAN — Vendor Portal
+
+**Live Demo:** [niirmaan-vendor-portal.vercel.app](https://niirmaan-vendor-portal.vercel.app)
+
+A self-service portal for material suppliers on the Niirmaan marketplace. Vendors manage their product catalog, process incoming orders, track earnings, configure their storefront, and analyse sales performance — all without platform-operator involvement.
+
+| Role | Email | Password |
+|------|-------|----------|
+| Active Vendor | v001@niirmaan.com | Niirmaan@2026 |
+
+**Highlights:**
+- Animated KPI dashboard with guided onboarding checklist for new vendors
+- Seven-page inventory management suite: Product Dashboard, Product List, Stock Management, Price Management, Stock Alerts, Bulk CSV Upload, and Multi-Location Inventory
+- Inbound order workflow — inbox view, individual order drill-down, and delivery tracking
+- Full shop profile management: operating hours, delivery zones, payment methods, and location settings
+- Earnings & finance: period-over-period revenue, payout schedule, commission breakdown, and a full transaction ledger
+- Six analytics views: Executive Summary, Sales Analytics, Product Performance, Customer Analytics, Advanced Analytics, and a Custom Report Builder
+- Review dashboard with aggregate rating trends and moderation flagging
+- Vendor-to-customer messaging inbox, subscription tier management, and team sub-accounts
+
+**Stack:** React 18 + TypeScript · Material UI v5 · Zustand + React Query · Vite · Supabase Edge Functions + Realtime · Supabase Auth · Vitest (31 test files, 300+ cases)
+
+**GitHub (private):** `github.com/siamsadmanazad/Niirmaan_vendor_portal`
+
+---
+
 ## Private Repo
 
 The full portfolio includes many more projects across different stacks and problem spaces. If you're a collaborator, recruiter, or someone I've invited directly, you may have access to the private repository.

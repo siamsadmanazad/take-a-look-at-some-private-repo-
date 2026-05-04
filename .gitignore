@@ -1,6 +1,8 @@
 # Ignore everything
 *
 NW_read.md
+N_admin_read.md
+N_vp_read.md
 
 # Except these
 !.gitignore
