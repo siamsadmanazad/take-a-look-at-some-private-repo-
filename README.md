@@ -106,6 +106,24 @@ A self-service portal for material suppliers on the Niirmaan marketplace. Vendor
 
 ---
 
+### AMNT — Luxury Leather Brand
+
+**Live Demo:** [amnt.netlify.app](https://amnt.netlify.app)
+
+A premium luxury leather goods brand and digital storefront — built to the standard of international fashion houses like Polène, Strathberry, and Coach. The storefront is a Next.js monorepo covering a customer-facing frontend (Phase 1, live) with a full ecommerce backend and admin panel planned for Phase 2.
+
+> Handcrafted in Bangladesh. Designed for timeless elegance.
+
+**Highlights:**
+- Cinematic 9-section homepage with editorial aesthetics and a luxury design system: Cormorant Garamond headlines, Inter body, and a Matte Black / Warm Ivory / Leather Brown / Gold palette
+- Dual animation system — Framer Motion for React component transitions and Anime.js for DOM-level scroll sequences, SVG line draws, hero entrance, and a custom cursor
+- Radix UI headless components, Embla Carousel for drag-enabled product sliders, and Sonner for minimal toast notifications
+- Phase 2 roadmap: full Supabase backend (PostgreSQL + Auth + Storage), Hono.js API, local payment methods (SSLCommerz, bKash, Nagad) + Stripe, and an internal admin panel built with shadcn/ui
+
+**Stack:** Next.js 14+ (App Router) · TypeScript · Tailwind CSS · Framer Motion · Anime.js · Radix UI · Vercel
+
+---
+
 ## Private Repo
 
 The full portfolio includes many more projects across different stacks and problem spaces. If you're a collaborator, recruiter, or someone I've invited directly, you may have access to the private repository.
